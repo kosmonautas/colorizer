@@ -1,0 +1,8 @@
+{
+  "name": "colorizer",
+  "version": "1.0.0",
+  "description": "Returns color codes in requested order",
+  "main": "index.js",
+  "author": "John Doe",
+  "license": "UNLICENSED"
+}
