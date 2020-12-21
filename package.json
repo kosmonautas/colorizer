@@ -4,5 +4,16 @@
   "description": "Returns color codes in requested order",
   "main": "index.js",
   "author": "John Doe",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node -r esm ./src/index.js parallel true false true true '[\"green\",\"blue\", \"red\", \"red\"]'",
+    "start-seq": "node -r esm ./src/index.js sequential true false true true '[\"green\",\"blue\", \"red\", \"red\"]'",
+    "dev": "nodemon -r esm ./src/index.js parallel true false true true '[\"green\",\"blue\", \"red\", \"red\"]'"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }

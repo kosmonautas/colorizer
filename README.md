@@ -12,5 +12,5 @@ Returns color codes in requested order.
 ### New additional requirements
 - The program must support the colors white and black.
 - The program must be able to return the RGB values.
-- It must be possible to run the program asynchronously getting all the colors at the same time
-- It must be possible to run the program synchronously getting one color a time
+- Program needs to be able to retrieve data in parallel and output results at once
+- Program needs to be able to retrieve data sequentially and output results one color a time
